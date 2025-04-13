@@ -99,25 +99,28 @@ The commit statement can be likened to creating checkpoints.  The process is as 
 
 # WRITE ---> ADD ---> COMMIT
 
-A couple of commands preceed the commit command and we need to understand these using the diagram below.
+A couple of commands preceed the commit command and we need to understand these using a white-board session...
 
-   ---->     # Working Directory
-   |
-   v
-git add
-   |
-   ---->     # Staging Area   ----   
-                                 |
-                                 v
-                              git commit
-                                 |
-   ----      # Repo          <----
-   |
-   v
-git push
-   |
-   ---->     # GitHub
+# Whiteboard 1
+1. git init (Note that we have already done this before.  This creates what we call a WORKING DIRECTORY)
+2. Create files using: touch file1 and file2 in the gitspace1 directory
+3. Run the command:
+- git add file1 file2 or git add .
+- git status
+4.  This gets the new files (file1 and file2) into a STAGING AREA. Note that files in the staging area are not yet committed.  Remember that committed means that the checkpoint has not been made but is like saying: 'I'm ready to commit the changes'
+5. Run the command:
+- git commit
+6. Immediately the git commit is run, the changes are committed to the repo
+7. The last command would be:
+- git push
+8. This command sends the changes  to say, a remote Github service
 
+Before we push to a remote Github service, let's understand: the working directory, the staging area and the repo in detail using a demo.
+
+
+# Demo 5
+
+  
 
 
 
