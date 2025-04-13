@@ -19,11 +19,14 @@ Once again, the goal here is not to memorise thousands of commands in Git but to
 Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.  
 Source: https://git-scm.com
 
+# Our definition: A Version Control System (Git) tracks files for changes   
+
 # REQUIREMENTS
 1.  Visual Studio code
 2.  Git
 
 Note: Git and GitHub are totally different - GitHub is a service provider and Git is a software in itself.  Note that Git is a terminal-first VCS.  We will be deep-diving into GitHub in coming modules.
+Also note that there are other services like BitBucket, etc which are online services that can be used to keep store of software changes.
 
 So let's get started with Git...
 
@@ -32,17 +35,46 @@ So let's get started with Git...
 2.  Click on Downloads and it will automatically detect your system OS and you can download Git.
 3.  After download, open the file and follow the on-screen promts (Next buttons, Agree button) and it's done!
 
+Note: That the software is installed in our system does NOT mean it is tracking stuff!  
+
 After installation, we now proceed to learning the software...  
 
 Note: Clicking on Documentation > Reference Manuals on https://git-scm opens up loads of info when you click on the git or command buttons.  So how do you find your way around?  This is more of a reference guide!
 
 # FIRST THINGS FIRST
+
+# Demo 1
 1.  Create a folder where all our Git files would reside on your laptop, say gitspace
 2.  cd to that folder
 3.  Ensure you have nothing (files or subdirectories in that folder)
 4.  Create 3 directories in this folder (e.g. using mkdir commands, create folders gitspace1, gitspace2 and gitspace3)
 
-# 
+# WHAT DOES GIT ACTUALLY DO?
+1.  It keeps track of changes made to a file (in our case, source code, scripts etc)
+2.  Helps in collaboration from say, 2 to hundreds of developers (remember our initial DevOps intro where we mentioned breaking down silos of dev and operations in the traditional IT environment before DevOps)
+3.  Learning approach: Understand the basics, use Git daily, resolve Git problems and you become a master!
+
+# UNDERSTANDING TERMINOLOGIES AROUND GIT
+1. Repo: Short for repository, a repo is a folder containing lots of software files.  This is the combination of having a folder as we created above and tracking the folder - i.e. Folder + Git installed + tracking = Repo
+Note: This also introduces us to Git commands
+
+# Demo 2
+i. git --version (or git -v) 
+2. To get your folder tracked by Git, you have to initialise Git on that folder.  The tracking of each folder is independent from another.  Using our folders above, initialising Git to track gitspace1 does not mean
+it is tracking gitspace2, etc.
+3.  You definitely do not want to track everything on your system. So let's get the 'track-worthy' tracked!
+
+# Demo 3
+1. Go back to the gitspace folder created in demo 1
+2. Use the ls command to list the subfolders gitspace1, gitspace2 & gitspace3
+3. Run the command:
+   ii. git status
+   ...on the gitspace folder think a bit about why we have the error message
+4. To track a particular folder (say gitspace1), use the command: cd gitspace1
+5. Run the git status command again: This is a habitual utility command and make it your lifeline ALWAYS
+6. Initialise the Git software on this folder, gitspace1, by using the command:
+   iii. git init
+
 
 
 
