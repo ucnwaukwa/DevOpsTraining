@@ -1,4 +1,4 @@
-# Git for Beginners
+# GIT FOR BEGINNERS
 
 # INTRODUCTION
 In module, we will be focusing on mastering Git from a theoretical and practical perspective.  Software development requires a lot of efforts in coding, collaboration, testing etc.  It is repetitive and could
@@ -27,9 +27,28 @@ Note: Git and GitHub are totally different - GitHub is a service provider and Gi
 
 So let's get started with Git...
 
-#  DOWNLOAD AND SET UP GIT
+#  DOWNLOAD AND INSTALL GIT
 1.  Download Git from https://git-scm.com
-2.  Click on Downloads and it will automatically detect your system OS and you can download Git. 
+2.  Click on Downloads and it will automatically detect your system OS and you can download Git.
+3.  After download, open the file and follow the on-screen promts (Next buttons, Agree button) and it's done!
+
+After installation, we now proceed to learning the software...  
+
+Note: Clicking on Documentation > Reference Manuals on https://git-scm opens up loads of info when you click on the git or command buttons.  So how do you find your way around?  This is more of a reference guide!
+
+# FIRST THINGS FIRST
+1.  Create a folder where all our Git files would reside on your laptop, say gitspace
+2.  cd to that folder
+3.  Ensure you have nothing (files or subdirectories in that folder)
+4.  Create 3 directories in this folder (e.g. using mkdir commands, create folders gitspace1, gitspace2 and gitspace3)
+
+# 
+
+
+
+
+
+
 
 
 
