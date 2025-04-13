@@ -55,7 +55,8 @@ Note: Clicking on Documentation > Reference Manuals on https://git-scm opens up 
 3.  Learning approach: Understand the basics, use Git daily, resolve Git problems and you become a master!
 
 # UNDERSTANDING TERMINOLOGIES AROUND GIT
-1. Repo: Short for repository, a repo is a folder containing lots of software files.  This is the combination of having a folder as we created above and tracking the folder - i.e. Folder + Git installed + tracking = Repo
+# 1. Repo: 
+Short for repository, a repo is a folder containing lots of software files.  This is the combination of having a folder as we created above and tracking the folder - i.e. Folder + Git installed + tracking = Repo
 Note: This also introduces us to Git commands
 
 # Demo 2
@@ -70,10 +71,41 @@ it is tracking gitspace2, etc.
 3. Run the command:
    ii. git status
    ...on the gitspace folder think a bit about why we have the error message
-4. To track a particular folder (say gitspace1), use the command: cd gitspace1
+4. To track a particular folder (say gitspace1), use the commands:
+   iii. cd gitspace1
+   iv. ls -la
+   (Command iv above lists also hidden files in gitspace1)
 5. Run the git status command again: This is a habitual utility command and make it your lifeline ALWAYS
 6. Initialise the Git software on this folder, gitspace1, by using the command:
-   iii. git init
+   v. git init
+7. Run thre git status command again and notice the difference in output
+8. If everything works fine, then gitspace1 is now being tracked by Git!
+9. Run the ls -la command again to see if there are any files added to gitspace1 which are hidden!
+
+# Explaining the Git init command further
+The git init command is run only once on a folder to enable the changes in that folder to be tracked.  As you proceed with adding, deleting and/or modifying files in your folder, you do NOT need to run git init again.
+
+Behind the hood, git init creates the .git folder (as you might have noticed in Demo 3, item 9 above) which is a hidden folder
+
+# Definition: .git is a hidden folder to keep history of all files and sub-folders in a Git-tracked folder.  Let's take a quick look at this folder...
+
+# Demo 4
+1.  Change directory to the gitspace1 folder
+2.  Run the command: ls -la
+3.  Change directory to .git using the command: cd .git
+4.  Notice folders like HEAD, hooks, refs, config etc.  These folders would increase as we add more files to the tracked folder, gitspace1.
+5.  You will NEVER need to manually edit or change these folders.  Editing these folders can mess up the Git system! However, we only need to know they exist
+
+
+# 2. Commit: 
+The commit statement can be likened to creating checkpoints.  The process is as below
+
+# WRITE ---> ADD ---> COMMIT
+
+
+
+
+   
 
 
 
