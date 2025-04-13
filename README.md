@@ -60,7 +60,8 @@ Short for repository, a repo is a folder containing lots of software files.  Thi
 Note: This also introduces us to Git commands which are identifiable by bullets beside them below.
 
 # Demo 2
-- git --version (or git -v) 
+- git --version (or git -v)
+1. Run the above command to confirm git is installed on your device (for Windows, run this on your cmd terminal).
 2. To get your folder tracked by Git, you have to initialise Git on that folder.  The tracking of each folder is independent from another.  Using our folders above, initialising Git to track gitspace1 does not mean
 it is tracking gitspace2, etc.
 3.  You definitely do not want to track everything on your system. So let's get the 'track-worthy' tracked!
@@ -99,6 +100,23 @@ The commit statement can be likened to creating checkpoints.  The process is as 
 # WRITE ---> ADD ---> COMMIT
 
 A couple of commands preceed the commit command and we need to understand these using the diagram below.
+
+   ---->     # Working Directory
+   |
+   v
+git add
+   |
+   ---->     # Staging Area   ----   
+                                 |
+                                 v
+                              git commit
+                                 |
+   ----      # Repo          <----
+   |
+   v
+git push
+   |
+   ---->     # GitHub
 
 
 
