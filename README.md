@@ -125,6 +125,22 @@ Before we push to a remote Github service, let's understand: the working directo
 4. You would ALWAYS be on one OR another branch: master, main, checkout, feature, etc
 5. Open the gitspace1 folder on Visual Studio to enable us work on the folder
 6. Assignment: Install GitLens on VS Code to be able to show graphically where you're at per time.
+7. Go back to the terminal and create a couple of files e.g. using the following command: touch gittest1.txt gittest2.txt
+8. Confirm them visually on VScode
+9. Run the git status and notice the output especially the message 'untracked files...'
+10. Next, use the git add command to add gittest1.txt to be tracked: git add gittest1.txt
+11. Run the git status command and notice the changes, especially the message 'changes to be committed...'
+12. Note that you are now on the staging area
+13. Definition: Staging area is an intermediate zone before you make any commit.  It's like a preview before you send your work to a printer to print!  It helps you to determine if you actually want to commit the changes
+14. Next, use the git commit command to commit.  However, let's look at the git commit command in detail...
+
+The commit command always needs a message as to why you are making the commit.  And that message can be added using the -m option thus:
+
+- git commit -m "add gittest1 file"
+
+15. We are now in the repo stage, so we run the git status command to see that gittest1.txt has gone into the repo; yet, leaving the gittest2.txt command as untracked.
+
+In the next class, we will go through the process with gittest2 and expose the importance of GitLens and some possible errors you may have!
 
 
 
