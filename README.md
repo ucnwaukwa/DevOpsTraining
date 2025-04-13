@@ -27,7 +27,9 @@ Note: Git and GitHub are totally different - GitHub is a service provider and Gi
 
 So let's get started with Git...
 
-# 
+#  DOWNLOAD AND SET UP GIT
+1.  Download Git from https://git-scm.com
+2.  Click on Downloads and it will automatically detect your system OS and you can download Git. 
 
 
 
