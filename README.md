@@ -122,8 +122,10 @@ Before we push to a remote Github service, let's understand: the working directo
 1. Use the pwd command to identify your present working directory
 2. Change directory to gitspace1 (our working directory - i.e. the directory where we initialised git)
 3. Run the git status command.  Remember: The git status command should be a habit for you! You ALWAYS need this to check the status of your directory
-4. You would ALWAYS be on one OR another branch: main, feature, etc
-  
+4. You would ALWAYS be on one OR another branch: master, main, checkout, feature, etc
+5. Open the gitspace1 folder on Visual Studio to enable us work on the folder
+6. Assignment: Install GitLens on VS Code to be able to show graphically where you're at per time.
+
 
 
 
