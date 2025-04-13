@@ -60,7 +60,7 @@ Short for repository, a repo is a folder containing lots of software files.  Thi
 Note: This also introduces us to Git commands
 
 # Demo 2
-i. git --version (or git -v) 
+- i. git --version (or git -v) 
 2. To get your folder tracked by Git, you have to initialise Git on that folder.  The tracking of each folder is independent from another.  Using our folders above, initialising Git to track gitspace1 does not mean
 it is tracking gitspace2, etc.
 3.  You definitely do not want to track everything on your system. So let's get the 'track-worthy' tracked!
@@ -69,15 +69,15 @@ it is tracking gitspace2, etc.
 1. Go back to the gitspace folder created in demo 1
 2. Use the ls command to list the subfolders gitspace1, gitspace2 & gitspace3
 3. Run the command:
-   ii. git status
+   - ii. git status
    ...on the gitspace folder think a bit about why we have the error message
 4. To track a particular folder (say gitspace1), use the commands:
-   iii. cd gitspace1
-   iv. ls -la
+   - iii. cd gitspace1
+   - iv. ls -la
    (Command iv above lists also hidden files in gitspace1)
 5. Run the git status command again: This is a habitual utility command and make it your lifeline ALWAYS
 6. Initialise the Git software on this folder, gitspace1, by using the command:
-   v. git init
+   - v. git init
 7. Run thre git status command again and notice the difference in output
 8. If everything works fine, then gitspace1 is now being tracked by Git!
 9. Run the ls -la command again to see if there are any files added to gitspace1 which are hidden!
@@ -101,6 +101,8 @@ Behind the hood, git init creates the .git folder (as you might have noticed in 
 The commit statement can be likened to creating checkpoints.  The process is as below
 
 # WRITE ---> ADD ---> COMMIT
+
+A couple of commands preceed the commit command and we need to understand these using the diagram below.
 
 
 
