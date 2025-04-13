@@ -44,7 +44,7 @@ Note: Clicking on Documentation > Reference Manuals on https://git-scm opens up 
 # FIRST THINGS FIRST
 
 # Demo 1
-1.  Create a folder where all our Git files would reside on your laptop, say gitspace
+1.  Create a folder where all our software project files would reside on your laptop, say gitspace
 2.  cd to that folder
 3.  Ensure you have nothing (files or subdirectories in that folder)
 4.  Create 3 directories in this folder (e.g. using mkdir commands, create folders gitspace1, gitspace2 and gitspace3)
@@ -68,17 +68,13 @@ it is tracking gitspace2, etc.
 # Demo 3
 1. Go back to the gitspace folder created in demo 1
 2. Use the ls command to list the subfolders gitspace1, gitspace2 & gitspace3
-3. Run the command:
+3. Change directory to gitspace1 using the command: cd gitspace1
+4. Run the command:
 - git status
-...on the gitspace folder think a bit about why we have the error message
-4. To track a particular folder (say gitspace1), use the commands:
-- cd gitspace1
-- ls -la
-   (Command iv above lists also hidden files in gitspace1)
-5. Run the git status command again: This is a habitual utility command and make it your lifeline ALWAYS
+5. Note: The git status command is a habitual utility command - make it your lifeline ALWAYS
 6. Initialise the Git software on this folder, gitspace1, by using the command:
 - git init
-7. Run thre git status command again and notice the difference in output
+7. Run the git status command again and notice the difference in output
 8. If everything works fine, then gitspace1 is now being tracked by Git!
 9. Run the ls -la command again to see if there are any files added to gitspace1 which are hidden!
 
