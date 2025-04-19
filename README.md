@@ -143,6 +143,81 @@ The commit command always needs a message as to why you are making the commit.  
 In the next class, we will go through the process with gittest2 and expose the importance of GitLens and some possible errors you may have!
 
 
+# GIT FOR BEGINNERS: DAY 2: 19 APR 2025
+
+# REFRESHER
+The 'Write > Add > Commit' practice above is a utility process for most developers.  Hence, we need to practice this as often as possible.
+
+Using day 1 examples above, please go ahead with Demo 6 below
+
+# Demo 6
+1. Use the command:
+
+- git status
+
+... to establish that gittest2 file is yet to be added to staging
+2. git add gittest2.txt
+3. Use git status one more time to confirm that gittest2.txt is now in the staging area
+4. git commit -m "add gittest2 file"
+5. So far, we have made 2 commits
+
+Generally speaking, most programmers use the command:
+- git add .
+
+Discussion: Can anyone explain the difference between 'git add <file name(s)>' and 'git add .' as often used by devs?
+
+# Explaining the Git log Command
+
+# Demo 7
+1. Run the following command:
+- git log
+
+The git log command provides details including:
+a. The commit ID
+b. The Author who made the commit
+c. Commits already done
+4. Date and time of the commit
+
+How did Git get to know these details?  It uses a configuration file.  The configuration file saves messages, IDs etc.
+
+Use the command:
+- git log --oneline
+and notice that the first 7 characters in a commit ID can be used as a unique ID for that commit.  This can be called the unique sha.
+
+# Explaining Git commits further
+Git follows the concept of atomic commits.  The idea behind atomic commits is that you do one task at a time.  
+
+Rule of Thumb: Keep commits centric to one feature, one component or one fix.  E.g. if you're fixing 10 bugs, please keep one commit to one bug.  There is also a debate about how you write commit messages.
+The official recommendation is use the present tense, but imperative (i.e. give an order or command to your code base)
+
+# GIT CONFIGURATION FILE
+How does Git know my name, my email and which text editor to use.  We will also look at the .gitignore.  To handle the configuration file, we use the command:
+
+- git config command
+
+There are two ways of configuring the Git configuration file:
+1. Global: This configuration is system-wide.  Anytime you make a Git repository, it interacts with the global file
+2. Repository: You can keep your configurations local to a given repository.
+
+Usually, people always keep configurations global especially the name and email; e.g:
+
+- git config --global core.editor "code --wait"
+Note that the command line expression for VScode is normally 'code'.  Also note that you can check the syntax for the config command in the documentation reference earlier mentioned:
+
+git config - Get and set repository or global options.  To set up your name and email, for instance, you can use the command:
+
+- git config --global user.name "Uche"
+- git config --global user.email "uchedevops@gmail.com"
+  
+
+
+
+
+
+
+
+
+
 
 
    
