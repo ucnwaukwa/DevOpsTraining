@@ -202,12 +202,18 @@ There are two ways of configuring the Git configuration file:
 Usually, people always keep configurations global especially the name and email; e.g:
 
 - git config --global core.editor "code --wait"
+- You can also use Ctrl+Shift+P on your Windows PC VScode window and type code to chose 'Shell Command: Install 'code' command in PATH' which makes your computer aware of the 'code' command in PATH and installs the code there.
+- You can check how to use other code editors on Google.
 Note that the command line expression for VScode is normally 'code'.  Also note that you can check the syntax for the config command in the documentation reference earlier mentioned:
 
 git config - Get and set repository or global options.  To set up your name and email, for instance, you can use the command:
 
 - git config --global user.name "Uche"
 - git config --global user.email "uchedevops@gmail.com"
+
+This is critical as Git would need to use your name whenever you make a push (or upload code)
+
+
   
 
 
