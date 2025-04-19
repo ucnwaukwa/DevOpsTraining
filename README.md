@@ -1,4 +1,4 @@
-# GIT FOR BEGINNERS
+# GIT FOR BEGINNERS: DAY 1: 13 APR 2025
 
 # INTRODUCTION
 In module, we will be focusing on mastering Git from a theoretical and practical perspective.  Software development requires a lot of efforts in coding, collaboration, testing etc.  It is repetitive and could
