@@ -204,7 +204,7 @@ Usually, people always keep configurations global especially the name and email;
 - git config --global core.editor "code --wait"
 - You can also use Ctrl+Shift+P on your Windows PC VScode window and type code to chose 'Shell Command: Install 'code' command in PATH' which makes your computer aware of the 'code' command in PATH and installs the code there.
 - You can check how to use other code editors on Google.
-Note that the command line expression for VScode is normally 'code'.  Also note that you can check the syntax for the config command in the documentation reference earlier mentioned:
+Note that the command line expression for VScode is normally 'code'.  Also note that you can check the syntax for the config command in the documentation reference earlier mentioned (https://git-scm.com/docs):
 
 git config - Get and set repository or global options.  To set up your name and email, for instance, you can use the command:
 
@@ -212,6 +212,14 @@ git config - Get and set repository or global options.  To set up your name and 
 - git config --global user.email "uchedevops@gmail.com"
 
 This is critical as Git would need to use your name whenever you make a push (or upload code)
+
+# .gitignore
+This is a special kind of file read only by Git itself and you have to create this file yourself.  It is used for:
+1. Files you don't want to track
+2. Node modules, API keys, secrets etc
+3. You can get the .gitignore template online but note that you would need to master the patterns
+
+
 
 
   
