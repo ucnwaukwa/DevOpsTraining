@@ -249,6 +249,8 @@ By the way, introduced the Git configuration file as where global configuration 
 1. cd to your home folder (Windows: c:\user\<User name>, Mac: /Users/apple etc)
 2. Use the command more .gitconfig (in Windows) or cat .gitconfig (on Mac etc) to view the .gitconfig file.
 
+This is the global configuration file.  It is broken down into blocks such as user, commit, core etc.
+
 
 
   
