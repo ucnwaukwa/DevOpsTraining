@@ -237,8 +237,10 @@ Using day 2 assignment, we proceed to commit:
 We then commit these changes with git commit without the -m option and see what happens (with git add . command as above and see what happens when we issue the git status command).  Notice the commit_editmsg window on VS Code and note that 
 this is because we have configured the default text editor to 'code' (ie. VS code).
 
+How do I know what to put in .gitignore then?  You can Google for .gitignore generator (e.g. Toptal .gitignore Generator).  You can then put the language you are writing code on to generate a .gitignore file you can literally copy and 
+use in your code.
 
-
+Assignment: Install the VS Code extensions for .gitignore generator and use those to generate your .gitignore files.
 
 
 
