@@ -261,6 +261,11 @@ author, email addy etc of the commit; the second commit points back to the first
 
 We can demonstrate these using a whiteboard session and a demo too.
 
+# Demo 10
+1. Go to your repo folder and issue the command ls -la to display a long listing including hidden files.
+2. We identify the .git hidden directory and cd into it
+3. list the contents of the .git folder using the ls command
+4. One of the files in the .git folder is the COMMIT_EDITMSG. Rings a bell?
 
 
 
