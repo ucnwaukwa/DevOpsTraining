@@ -242,7 +242,8 @@ use in your code.
 
 Assignment: Install the VS Code extensions for .gitignore generator and use those to generate your .gitignore files.
 
-
+# Exploring the Git Configuration file further...
+We introduced the Git configuration file as where global configuration e.g user names, user emails etc are stored.  But where is this file located?
 
 
 
