@@ -280,11 +280,16 @@ To explore branches and how applications are built, let's go into our second fol
 3. When you get the 'fatal: not a git repository...' error message, initialize the repo.
 4. git init
 5. Use the git status command one more time to check the folder this time.
-6. You should see messages like:
-   On branch master
-   No commits yet
-   nothing to commit...
-7. 
+6. You should see messages like: On branch master, No commits yet, nothing to commit...
+
+BTW, what is branch master? Also, on the left hand bottom of your VS Code, notice that it says 'master'.  Let's run some more commands before understanding what 'On branch master' means
+
+7. Create a couple of files and folders using: touch index.html
+8. Run the git status command.  What do you expect in the output of this command?
+9. Use: git add index.html command to add this change to staging area
+
+
+
 
 
 
