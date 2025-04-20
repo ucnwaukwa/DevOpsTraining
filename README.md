@@ -251,6 +251,21 @@ By the way, introduced the Git configuration file as where global configuration 
 
 This is the global configuration file.  It is broken down into blocks such as user, commit, core etc.  Note that you can edit this file (but of course, if you know what you're doing).
 
+# So How Does the Commit Work?
+Using the command: git log --online, we notice these - (HEAR -> master).  What does this mean?  Let's explain that.
+
+In Git, every commit is dependent on the previous commit except the first commit. Notice that each commit is identified by a hash (unique sha), a commit message, which is some information about the commit etc.
+
+However, the git log --online output does not show that the current commit is dependent on the previous commit (checkpoint) as it is a tracking mechanism.  The first hash has a parent that points to null, info that lists things like
+author, email addy etc of the commit; the second commit points back to the first commit (i.e. the first commit's hash and parent, etc.  In same vein, the third commit points back to the second commit and so on and so forth.  
+
+We can demonstrate these using a whiteboard session and a demo too.
+
+
+
+
+
+
 
 
   
