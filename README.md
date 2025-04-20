@@ -327,9 +327,20 @@ To explain further, let's create a simple requirement - a html page:
 3.  Commit with the command: git commit -m "Update index file code"
 4.  Note also that HEAD still points to the master when we check with the command: git branch.  It also says same when you check the .git folder > refs > heads path on the VS Code Explorer.
 
+# Demo 12
 # How do we create more branches?
 We can create multiple branches using any of the following methods:
-a. Use the command git branch nav-bar-feature
+1. Use the command git branch nav-bar-feature
 (Hint: This creates a branch for a dev in our team working on the Navigation bar.  Branch names can go after a company's naming standards)
+2. Use the git branch command once again to check which branch we are at.  We notice our pointer still points to master!  However, we now have another branch.  Also confirm this on the Explorer window.
+3. How do I move to a different branch.  We use the command:
+
+-  git checkout nav-bar
+
+4. Using git branch we notice the pointer is now pointing to nav-bar-feature
+5. If we check the HEAD on Explorer, we notice it's now pointing to nav-bar-feature
+6. Also notice what happens on GitLens
+
+
 
 
