@@ -273,7 +273,18 @@ We can demonstrate these using a whiteboard session and a demo too.
 
 
 # GIT BRANCHES
-To explore branches and how applications are built, let's go into our second folder: gitspace2.  Note that we have been working on gitspace one thus far.
+To explore branches and how applications are built, let's go into our second folder: gitspace2.  Note that we have been working on gitspace one thus far. This provides an opportunity to practice all we've learnt so far:
+
+1. cd to gitspace2
+2. Run the git status command on gitspace2
+3. When you get the 'fatal: not a git repository...' error message, initialize the repo.
+4. git init
+5. Use the git status command one more time to check the folder this time.
+6. You should see messages like:
+   On branch master
+   No commits yet
+   nothing to commit...
+7. 
 
 
 
