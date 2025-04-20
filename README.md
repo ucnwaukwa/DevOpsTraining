@@ -234,7 +234,10 @@ Using day 2 assignment, we proceed to commit:
 - git commit
 - And check to see what was committed
 
-We then commit these changes with git commit without the -m option and see what happens (with git add . command as above and see what happens when we issue the git status command).
+We then commit these changes with git commit without the -m option and see what happens (with git add . command as above and see what happens when we issue the git status command).  Notice the commit_editmsg window on VS Code and note that 
+this is because we have configured the default text editor to 'code' (ie. VS code).
+
+
 
 
 
