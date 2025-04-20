@@ -275,6 +275,7 @@ We can demonstrate these using a whiteboard session and a demo too.
 # GIT BRANCHES
 To explore branches and how applications are built, let's go into our second folder: gitspace2.  Note that we have been working on gitspace one thus far. This provides an opportunity to practice all we've learnt so far:
 
+# Demo 11
 1. cd to gitspace2
 2. Run the git status command on gitspace2
 3. When you get the 'fatal: not a git repository...' error message, initialize the repo.
@@ -290,6 +291,13 @@ BTW, what is branch master? Also, on the left hand bottom of your VS Code, notic
 10. Confirm your change is now in the staging area using... what? git status command
 11. Commit your changes using the command: git commit -m "add index file"
 12. Check to see index.html on your VS Code Explorer.  Also note that you can use Ctrl+r to show hidden .git folder created by git init command.
+13. Now run the command:
+
+- git branch
+
+You will notice the following output: * master.  This actually a pointer (the asterisk symbol stands for a pointer pointing to the master as the branch we are at).  What's the branch
+
+
 
 
 
