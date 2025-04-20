@@ -264,8 +264,13 @@ We can demonstrate these using a whiteboard session and a demo too.
 # Demo 10
 1. Go to your repo folder and issue the command ls -la to display a long listing including hidden files.
 2. We identify the .git hidden directory and cd into it
-3. list the contents of the .git folder using the ls command
-4. One of the files in the .git folder is the COMMIT_EDITMSG. Rings a bell?
+3. list the contents (including hidden resources) of the .git folder using the ls -la command
+4. One of the files in the .git folder is the COMMIT_EDITMSG. Rings a bell?  This is the file we opened up when we ommitted parsing the commit message with the -m option in the command: git commit.
+5. Note that you can list your hidden folders on the VS Code GUI by using the Ctrl+commar keys (choose Files and scroll down to the Exclude session etc), remove **/git and you'll be able to see all your hidden folders.
+6. Our focus here is the HEAD.  Notice that the HEAD file is pointing to master.  Remember we mentioned that in Git, you're always on some branch or the other.
+7. Other folders in the .git directory includes hooks.  You can decide what happens before or after a commit by using sample templates in the hooks folder.  However, hooks are beyond the beginner course content. We also have the
+   info and logs folders.  The logs folder is where we keep all the logs of what happened in our repository
+
 
 
 
