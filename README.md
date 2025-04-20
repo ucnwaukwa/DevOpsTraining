@@ -298,7 +298,25 @@ BTW, what is branch master? Also, on the left hand bottom of your VS Code, notic
 You will notice the following output: * master.  This actually a pointer (the asterisk symbol stands for a pointer pointing to the master as the branch we are at).  What's the branch
 
 # Understanding Git branches...
-A branch is a new and separate version of the main repository. Let's explore scenarios where a branch is expedient:
+A branch is a new and separate version of the main repository. Let's explore a hypothetical scenario to explain what a branch is in Git.
+
+Assuming you have an existing large application project with its codebase, and you need to add a new feature or fix a bug in that project, how would you do that in Git?  Your approach may be similar to the steps below.
+
+a. Take a new copy of the entire code base; modify the codebase to add that new feature without tampering with the existing copy.
+b. Assuming the ask is to fix a but, we take a copy of the codebase as well and modify the code to fix the malfunction
+c. In Git terms, by doing the above, we have created a new branch from the main project called fix-error
+d. Also, we have created a new branch to add the new feature called feature-more branch.  Note that the two new branches are unrelated.
+e. After fixing the bug, we merge the fix-error branch to the main branch
+f. Go back to the fix-error branch and complete the new feature code on this branch.
+g. Merge the new feature branch with main branch.  
+
+Hence, branches permit us to work on different demands of a project without impacting the main branch.  However, we only add our 'branch work' with the 'main branch' (by merging the new branch to the main) after we complete our tasks on 
+the new branches.  However, notice that we have been using the terms main and master interchangeably.  A bit of history exists here where it was a bit impolite (or poilitically correct) to call the main branch 'main' instead of master
+and slave terms, which sound a bit barbaric.
+
+
+
+
 
 
 
