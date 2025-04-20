@@ -314,6 +314,11 @@ Hence, branches permit us to work on different demands of a project without impa
 the new branches.  However, notice that we have been using the terms main and master interchangeably.  A bit of history exists here where it was a bit impolite (or poilitically correct) to call the main branch 'main' instead of master
 and slave terms, which sound a bit barbaric.
 
+Hence, you will be asked to rename your master branch to say, main (main is the most popular name).
+
+Therefore, HEAD -> master means...
+Head points to where a branch is currently at
+
 
 
 
