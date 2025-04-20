@@ -340,6 +340,9 @@ We can create multiple branches using any of the following methods:
 4. Using git branch we notice the pointer is now pointing to nav-bar-feature
 5. If we check the HEAD on Explorer, we notice it's now pointing to nav-bar-feature
 6. Also notice what happens on GitLens
+7. Create a new file called touch nav-bar.html
+8. We can create the nav-bar.html code in a nav-bar.html file.
+9. We go ahead and stage and commit the changes to the nav-bar.html file.
 
 
 
