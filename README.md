@@ -287,6 +287,9 @@ BTW, what is branch master? Also, on the left hand bottom of your VS Code, notic
 7. Create a couple of files and folders using: touch index.html
 8. Run the git status command.  What do you expect in the output of this command?
 9. Use: git add index.html command to add this change to staging area
+10. Confirm your change is now in the staging area using... what? git status command
+11. Commit your changes using the command: git commit -m "add index file"
+12. Check to see index.html on your VS Code Explorer.  Also note that you can use Ctrl+r to show hidden .git folder created by git init command.
 
 
 
