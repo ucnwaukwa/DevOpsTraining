@@ -317,38 +317,19 @@ and slave terms, which sound a bit barbaric.
 Hence, you will be asked to rename your master branch to say, main (main is the most popular name).
 
 Therefore, HEAD -> master means...
-Head points to where a branch is currently at
+Head points to where a branch is currently at.
 
+To explain further, let's create a simple requirement - a html page:
 
+# Requirements
+1.  Add the html code into the index.html file created above.  Your instructor will provide this.
+2.  Run the git status and git add commands to stage the changes
+3.  Commit with the command: git commit -m "Update index file code"
+4.  Note also that HEAD still points to the master when we check with the command: git branch.  It also says same when you check the .git folder > refs > heads path on the VS Code Explorer.
 
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-   
-
-
-
-
-
-
-
-
+# How do we create more branches?
+We can create multiple branches using any of the following methods:
+a. Use the command git branch nav-bar-feature
+(Hint: This creates a branch for a dev in our team working on the Navigation bar.  Branch names can go after a company's naming standards)
 
 
