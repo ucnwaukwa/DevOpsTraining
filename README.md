@@ -231,10 +231,12 @@ Using day 2 assignment, we proceed to commit:
 1. Run the following command:
 - git status
 - git add . (Create more files like .env, folder like folder2ignore, etc and add them on the .gitignore file - note that folers need to be written as: folder/)
-- git commit -m <"commit message">
+- git commit
 - And check to see what was committed
 
-We the commit these changes (with git add . command as above and see what happens when we issue the git status command).
+We then commit these changes with git commit without the -m option and see what happens (with git add . command as above and see what happens when we issue the git status command).
+
+
 
 
 
