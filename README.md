@@ -297,7 +297,8 @@ BTW, what is branch master? Also, on the left hand bottom of your VS Code, notic
 
 You will notice the following output: * master.  This actually a pointer (the asterisk symbol stands for a pointer pointing to the master as the branch we are at).  What's the branch
 
-
+# Understanding Git branches...
+A branch is a new and separate version of the main repository. Let's explore scenarios where a branch is expedient:
 
 
 
