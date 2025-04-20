@@ -272,8 +272,8 @@ We can demonstrate these using a whiteboard session and a demo too.
    info and logs folders.  The logs folder is where we keep all the logs of what happened in our repository
 
 
-
-
+# GIT BRANCHES
+To explore branches and how applications are built, let's go into our second folder: gitspace2.  Note that we have been working on gitspace one thus far.
 
 
 
