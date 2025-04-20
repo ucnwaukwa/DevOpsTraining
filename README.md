@@ -220,6 +220,20 @@ This is a special kind of file read only by Git itself and you have to create th
 3. You can get the .gitignore template online but note that you would need to master the patterns
 
 
+# GIT FOR BEGINNERS: DAY 3: 20 APR 2025
+
+# REFRESHER
+Review of assignment.  
+
+Using day 2 assignment, we proceed to commit:
+
+# Demo 8
+1. Run the following command:
+- git status
+- git add .
+- git commit -m <"commit message">
+- And check to see what was committed
+
 
 
   
