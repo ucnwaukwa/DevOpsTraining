@@ -401,7 +401,11 @@ first of all make sure you are on the branch you don't want to move changes over
 8. Run the git branch command to confirm we now only have the master branch
 9. After running command 8 above, notice that GitLens retains a graphical view of your activities which shows that there was an alternative (and merged) branch called nav-bar.
 10.  Why do most companies demand deleting the alternate branch which has been merged to main?  The branch has served its purpose, and if we need more branches we can create fresh ones!
+11.  Let's look at the GitLens output and see what happens.
 
 Class Workshop: Create another branch with another code file called footer.html and add code that the instructor would provide.  Add, commit and merge changes this branch to main. 
 
 Group Assignment: Study Merge conflict, what causes them, and how to resolve it (resolve on VScode, terminal etc).  This should be presented next week Saturday
+
+# GIT DIFF AND STASHING
+
