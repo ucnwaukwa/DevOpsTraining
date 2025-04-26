@@ -347,5 +347,14 @@ We can create multiple branches using any of the following methods:
 
 
 # GIT FOR BEGINNERS: DAY 4: 26 APR 2025
-Last week we created a nav-bar 
+Last week we created a nav-bar branch and we were able to demonstrate switching to that branch.  Remember that we defined a branch as a new and separate version of the main repository.  Let's go ahead and create a nav-bar.html file thus...
+
+# REQUIREMENTS 3
+1.  Create a new file: nav-bar.html on VScode.
+2.  Add the Requirements 3 code into the nav-bar.html file created above.  Your instructor will provide this.
+3.  Run the git status and git add commands to stage the changes.  Ensure you are on the nav-bar branch.  Also check the GitLens output before and after step 5 below.
+4.  Commit with the command: git commit -m "add nav-bar to codebase"
+5.  Switch the branch back to master using the command: git checkout master.
+6.  Immediately you switch to master, notice that the file you initially created (nav-bar.html) is completely gone on the GitLens UI.  Why?  The file was created by another dev and because we have not merged that code, master is oblivious of it.
+7. 
 
