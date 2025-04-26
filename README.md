@@ -394,4 +394,5 @@ first of all make sure you are on the branch you don't want to move changes over
 3. To merge the nav-bar branch to master use the command:
 - git merge nav-bar
 4. Take note of the output of the git merge command above on the terminal; for instance the message: nav-bar.html | 3 +++ means that all changes made were code additions (or insertions), not code deletes.
-
+5. You can use the git log --oneline command to see those code insertions
+6. Check out GitLens to see the changes on both branches, and then the merge to master nicely shown in graph form.
