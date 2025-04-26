@@ -356,5 +356,5 @@ Last week we created a nav-bar branch and we were able to demonstrate switching 
 4.  Commit with the command: git commit -m "add nav-bar to codebase"
 5.  Switch the branch back to master using the command: git checkout master.
 6.  Immediately you switch to master, notice that the file you initially created (nav-bar.html) is completely gone on the GitLens UI.  Why?  The file was created by another dev and because we have not merged that code, master is oblivious of it.
-7.  Notice that you could be working on completely different branch, file etc; however, it is critical to note that the HEAD always points to the current branch.
+7.  Notice that you could be working on completely different branch, file etc; however, it is critical to note that the HEAD always points to the current branch.  Hence, wherever your branch is latest, that's where the head will point.
 
