@@ -440,3 +440,14 @@ Class Workshop: Edit the footer.html file also and run the git diff --staged com
 8. You can go ahead and commit the changes using the command below, for instance:
 - git commit -m "update index and footer files"
 9. Run the git log --oneline command to see what your logs look like.
+10. Notice we can see the different commit IDs as the file kept changing over time.  We can use the commit IDs to show the differences in same file over time using the command below.
+
+- git diff <previous commit ID> <later commit ID>
+
+11. And we still get the differences in the file!
+12. The git diff command with commit IDs can also be executed using a different syntax thus:
+
+- git diff <previous commit ID>..<later commit ID>
+
+
+
