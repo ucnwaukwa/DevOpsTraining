@@ -21,7 +21,7 @@ Source: https://git-scm.com
 
 # Our definition: A Version Control System (Git) tracks files for changes   
 
-# REQUIREMENTS
+# REQUIREMENTS 1
 1.  Visual Studio code
 2.  Git
 
@@ -321,7 +321,7 @@ Head points to where a branch is currently at.
 
 To explain further, let's create a simple requirement - a html page:
 
-# Requirements
+# REQUIREMENTS 2
 1.  Add the html code into the index.html file created above.  Your instructor will provide this.
 2.  Run the git status and git add commands to stage the changes
 3.  Commit with the command: git commit -m "Update index file code"
@@ -330,7 +330,7 @@ To explain further, let's create a simple requirement - a html page:
 # Demo 12
 # How do we create more branches?
 We can create multiple branches using any of the following methods:
-1. Use the command git branch nav-bar-feature
+1. Use the command git branch nav-bar
 (Hint: This creates a branch for a dev in our team working on the Navigation bar.  Branch names can go after a company's naming standards)
 2. Use the git branch command once again to check which branch we are at.  We notice our pointer still points to master!  However, we now have another branch.  Also confirm this on the Explorer window.
 3. How do I move to a different branch.  We use the command:
@@ -346,4 +346,6 @@ We can create multiple branches using any of the following methods:
 
 
 
+# GIT FOR BEGINNERS: DAY 4: 26 APR 2025
+Last week we created a nav-bar 
 
