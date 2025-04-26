@@ -400,5 +400,6 @@ first of all make sure you are on the branch you don't want to move changes over
 - git branch -d nav-bar
 8. Run the git branch command to confirm we now only have the master branch
 9. After running command 8 above, notice that GitLens retains a graphical view of your activities which shows that there was an alternative (and merged) branch called nav-bar.
+10.  Why do most companies demand deleting the alternate branch which has been merged to main?  The branch has served its purpose, and if we need more branches we can create fresh ones!
 
 
