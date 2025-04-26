@@ -408,6 +408,8 @@ Class Workshop: Create another branch with another code file called footer.html 
 Group Assignment: Study Merge conflict, what causes them, and how to resolve it (resolve on VScode, terminal etc).  This should be presented next week Saturday
 
 # GIT DIFF AND STASHING
+
+# Git diff
 The git diff command is an informative command that shows you the differences in same file!  These are differences in same file over time.  Hence, we refer to differences in versions of same file in x time and y time.  So you may be working with 
 a file and you have staged that file, and you want to compare the difference between the file before it was staged and when it is staged.  For e.g., how does this file look say, 2 commits before and now, 2 commits after; or how does this same file look
 or compare between this branch and another branch.
@@ -447,7 +449,11 @@ Class Workshop: Edit the footer.html file also and run the git diff --staged com
 11. And we still get the differences in the file!
 12. The git diff command with commit IDs can also be executed using a different syntax thus:
 
+Assignment: Use branches with the git diff command to compare versions of same file across branches.
+
+
 - git diff <previous commit ID>..<later commit ID>
 
+# Git stash
 
 
