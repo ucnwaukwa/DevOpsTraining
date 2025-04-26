@@ -455,5 +455,9 @@ Assignment: Use branches with the git diff command to compare versions of same f
 - git diff <previous commit ID>..<later commit ID>
 
 # Git stash
+To understand the Git stash, we use a workflow:
 
-
+# REQUIREMENTS 4
+- Create a repo, work and commit on main
+- Switch to another branch and work
+- Note: Conflicting changes would not allow us to switch branch without commits
