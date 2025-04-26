@@ -384,3 +384,5 @@ In the above, you first make sure you are on the master branch (You merge from t
 And then we merge the changes in the wip-bugfix to the master.
 
 # Not fast forward merge
+In this case both the main (or master) and alternative branches are both being changed (or being worked on).  However, after some time you want to get all changes from both branches into one branch (say, the main branch).  To do this,
+first of all make sure you are on the branch you don't want to move changes over to the other (in our case, the main branch as before).
