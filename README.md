@@ -402,4 +402,4 @@ first of all make sure you are on the branch you don't want to move changes over
 9. After running command 8 above, notice that GitLens retains a graphical view of your activities which shows that there was an alternative (and merged) branch called nav-bar.
 10.  Why do most companies demand deleting the alternate branch which has been merged to main?  The branch has served its purpose, and if we need more branches we can create fresh ones!
 
-
+Class Workshop: Create another branch with another code file called footer.html and add code that the instructor would provide.  Add, commit and merge changes this branch to main. 
