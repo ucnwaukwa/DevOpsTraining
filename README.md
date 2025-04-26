@@ -468,4 +468,4 @@ It's important to note that if you've worked on code or made changes that are st
 1. Run git status and ensure you are on the master
 2. git swtich -c bugfix
 3. git status to ensure we are on the bugfix branch
-4. Modify the footer.html file by adding a line: 'trying to fix a bug' under the 'add some awesome footer here'
+4. Modify the footer.html file by adding an extra line under the only line after the <footer> tag: 'trying to fix a bug'. 
