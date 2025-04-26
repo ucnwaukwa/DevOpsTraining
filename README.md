@@ -357,4 +357,14 @@ Last week we created a nav-bar branch and we were able to demonstrate switching 
 5.  Switch the branch back to master using the command: git checkout master.
 6.  Immediately you switch to master, notice that the file you initially created (nav-bar.html) is completely gone on the GitLens UI.  Why?  The file was created by another dev and because we have not merged that code, master is oblivious of it.
 7.  Notice that you could be working on completely different branch, file etc; however, it is critical to note that the HEAD always points to the current branch.  Hence, wherever your branch is latest, that's where the head will point.
+8.  Also note at the same time, that you can get the head point to the previous commit(s) before the latest commit on a branch.  We will see that as we go.
+
+In summary, here are the commands that we've learnt about and what they do with sample branch names:
+a. git branch (shows all the branches available)
+b. git branch wip-reports (creates a new branch called wip-reports)
+c. git switch wip-bugfix (Same as git checkout - moves you to another branch
+d. git log (shows a log of commits and their details)
+Shortcuts also exist such as:
+e. git switch -c wip-reports (creates a branch 'wip-reports' and moves you to that branch in one single command)
+f. git checkout -b wip-bugfix (also creates a new branch and moves you to that branch in one single command)
 
