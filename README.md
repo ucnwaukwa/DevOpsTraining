@@ -468,4 +468,20 @@ It's important to note that if you've worked on code or made changes that are st
 1. Run git status and ensure you are on the master
 2. git swtich -c bugfix
 3. git status to ensure we are on the bugfix branch
-4. Modify the footer.html file by adding an extra line under the only line after the <footer> tag: 'trying to fix a bug'. 
+4. Modify the footer.html file by adding an extra line under the only line after the <footer> tag: 'trying to fix a bug'.
+5. We are still in the middle of fixing the bug (we haven't fixed it) and we can jump off to the terminal and run the following commands
+- git status (to ensure we are on the bugfix branch)
+- git status (to check the status)
+6. But your attention is needed on another branch (footer) by your colleague! Remember you have not completed
+7. You switch to that branch with command: git switch footer
+8. You now have an error message - you can't move to footer
+9. This explains the last note on Requirements 4
+10. How do you solve this? You use the git stash command thus:
+
+- git stash
+
+11. You can now switch to footer with: git switch footer
+12. You can see this when you run: git branch.
+13. And you can switch back to bugfix using: git switch bugfix
+
+We will explore more about the git stash command tomorrow.  
