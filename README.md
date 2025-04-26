@@ -396,3 +396,8 @@ first of all make sure you are on the branch you don't want to move changes over
 4. Take note of the output of the git merge command above on the terminal; for instance the message: nav-bar.html | 3 +++ means that all changes made were code additions (or insertions), not code deletes.
 5. You can use the git log --oneline command to see those code insertions
 6. Check out GitLens to see the changes on both branches, and then the merge to master nicely shown in graph form.
+7. Note that some companies would demand you to delete the alternate branch(es) after merge.  This can be done with:
+- git branch -d nav-bar
+8. After running the command, notice that GitLens retains a graphical view of your activities which shows that there was an alternative (and merged) branch called nav-bar.
+
+
