@@ -368,3 +368,19 @@ Shortcuts also exist such as:
 e. git switch -c wip-reports (creates a branch 'wip-reports' and moves you to that branch in one single command)
 f. git checkout -b wip-bugfix (also creates a new branch and moves you to that branch in one single command)
 
+NB: Always commit before switching to another branch
+
+# MERGING BRANCHES
+Git merge allows you to integrate changes from different branches to a single branch.  There are two types of merging:
+- Fast forward merge
+- Not fast forward merge
+
+# Fast forward merge
+Fast forward merge is always very easy to do.  Here you make less changes on the master by mainly making your changes on other branches, then merging that to master as follows:
+- git switch master
+- git merge wip-bugfix
+
+In the above, you first make sure you are on the master branch (You merge from the branch you want to add another branch to.  In the above we want to add changes on wig-bugfix branch to master, so we first switch to the master)
+And then we merge the changes in the wip-bugfix to the master.
+
+# Not fast forward merge
