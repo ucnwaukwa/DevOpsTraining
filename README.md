@@ -408,4 +408,4 @@ Class Workshop: Create another branch with another code file called footer.html 
 Group Assignment: Study Merge conflict, what causes them, and how to resolve it (resolve on VScode, terminal etc).  This should be presented next week Saturday
 
 # GIT DIFF AND STASHING
-
+The git diff command is an informative command that shows you the differences in same file!  These are differences in same file over time.
