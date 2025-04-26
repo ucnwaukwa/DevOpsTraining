@@ -385,4 +385,13 @@ And then we merge the changes in the wip-bugfix to the master.
 
 # Not fast forward merge
 In this case both the main (or master) and alternative branches are both being changed (or being worked on).  However, after some time you want to get all changes from both branches into one branch (say, the main branch).  To do this,
-first of all make sure you are on the branch you don't want to move changes over to the other (in our case, the main branch as before).
+first of all make sure you are on the branch you don't want to move changes over to the other (in our case, the main branch as before).  Let's explore this.
+
+# Demo 13
+# How do we merge branches (Not fast forward merge)?
+1. First ensure that the master and nav-bar branches have commits existing beyond the last merge
+2. First of all, use the command: git status to ensure that the we are on the master.  If not, go to the master branch with the command: git checkout master
+3. To merge the nav-bar branch to master use the command:
+- git merge nav-bar
+4. Take note of the output of the git merge command above on the terminal; for instance the message: nav-bar.html | 3 +++ means that all changes made were code additions (or insertions), not code deletes.
+
