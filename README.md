@@ -411,3 +411,10 @@ Group Assignment: Study Merge conflict, what causes them, and how to resolve it 
 The git diff command is an informative command that shows you the differences in same file!  These are differences in same file over time.  Hence, we refer to differences in versions of same file in x time and y time.  So you may be working with 
 a file and you have staged that file, and you want to compare the difference between the file before it was staged and when it is staged.  For e.g., how does this file look say, 2 commits before and now, 2 commits after; or how does this same file look
 or compare between this branch and another branch.
+
+It is very important to understand this clearly.  Let's say we represent same file 1 as x (at a moment in time) and file 2 as same file but represented as y (at a later moment in time).  The following symbols seem confusing, but we will explain them as below.
+
+- a = file 1 and b = file 2 (however, both are same file over time)
+- --- file 1 (indicates changes in file, hence file a is represented by the minus symbol)
+- +++ file 2 (indicates changes in file, hence file b is represented by the plus symbol)
+- Note that the minus and plus signs above do not necessarily mean code removed or code added to the file.  They signify changes on the file over time.
