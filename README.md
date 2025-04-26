@@ -403,3 +403,5 @@ first of all make sure you are on the branch you don't want to move changes over
 10.  Why do most companies demand deleting the alternate branch which has been merged to main?  The branch has served its purpose, and if we need more branches we can create fresh ones!
 
 Class Workshop: Create another branch with another code file called footer.html and add code that the instructor would provide.  Add, commit and merge changes this branch to main. 
+
+Group Assignment: Study Merge conflict, what causes them, and how to resolve it (resolve on VScode, terminal etc).  This should be presented next week Saturday
