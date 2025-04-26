@@ -459,5 +459,13 @@ To understand the Git stash, we use a workflow:
 
 # REQUIREMENTS 4
 - Create a repo, work and commit on main
-- Switch to another branch and work
+- Switch to another branch and work (As you know, this may be required for bug fixes, new features etc)
 - Note: Conflicting changes would not allow us to switch branch without commits
+
+It's important to note that if you've worked on code or made changes that are staged, Git may not allow you to switch to another branch without a commit. Let's understand this with a demo
+
+
+1. Run git status and ensure you are on the master
+2. git swtich -c bugfix
+3. git status to ensure we are on the bugfix branch
+4. Modify the footer.html file by adding a line: 'trying to fix a bug' under the 'add some awesome footer here'
