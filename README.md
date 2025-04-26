@@ -433,4 +433,10 @@ Let's understand this further using a practical approach...
 7. Run the command:
 - git diff --staged
 8. Notice the '--staged' option above provides us the desired output - the changes to the file, index.html.
-7. Note that this 
+7. Note that this output explains the 'a' and 'b' versions of the file as mentioned above including the '---' and '+++' symbols
+
+Class Workshop: Edit the footer.html file also and run the git diff --staged command to see multiple outputs for differences in multiple files.
+
+8. You can go ahead and commit the changes using the command below, for instance:
+- git commit -m "update index and footer files"
+9. Run the git log --oneline command to see what your logs look like.
