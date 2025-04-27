@@ -663,7 +663,7 @@ There are scenarios for both commands. For instance, you may load the updated co
 When you are sure it may not break, overwrite or alter your code, then you can pull.  Hence:
 
 - git pull = git fetch + git merge
-- Command: git pull origin main (changes will be merged to main)
+- Command: git pull origin main (changes in the origin will be merged to main)
 
 
 
