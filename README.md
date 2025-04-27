@@ -490,11 +490,25 @@ We will explore more about the git stash command tomorrow.
 
 
 # GIT FOR BEGINNERS: DAY 5: 27 APR 2025
+
+# git stash and git stash pop
 Let's explore how git stash and git stash pop works
 
 Going on with yesterday's analogy, after using git stash to save your changes, you were now able to switch to footer using: git switch footer
 
 # Demo 16
+Assuming we are through with helping our colleague from the example above, we are now ready to continue with our initial work on the bugfix branch thus:
+1. Command: git switch bugfix (to switch back to the bugfix branch)
+2. Command: git branch (to ensure our HEAD points to the bugfix branch)
+3. When we check on VSCode we notice that the changes we made before exiting the bugfix branch do no longer exist on VScode.  Why?
+4. We stashed those changes
+
+NOTE: The stash is a temporary shelf where you can keep your code temporarily.  But you need to pick back your code from the shelf to continue. You do this using the command:
+
+- git stash pop
+5.  When you check the file now (after the git stash pop command), you now have the stashed changes back (checking from VS Code).
+
+
 
 
 
