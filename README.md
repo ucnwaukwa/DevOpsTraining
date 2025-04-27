@@ -538,7 +538,21 @@ c. NEVER run the git rebase command on the master branch - NEVER EVER! This comm
 
 # GITHUB
 Github is one of the most popular options used for saving your codebase to an online service. Once again, it is important to read the Github documentation and try out 
-things on your own.  
+things on your own. We can access Github using the https://github.com link.
+
+BTW, it is pertinent to introduce the Github documentation page - https://docs.github.com/en/get-started.  Explore the menu by the left to learn a lot about Github.
+
+Github, as mentioned before, is one of the many online service that help you to keep all of your codebase along with the git timelines (branches), maintenance etc on a cloud 
+environment so that everything is safe and easily accessible.  Other popular services like Gitlab, Bitbucket etc also exist.
+
+To start:
+
+# Demo 15
+1. Go to https://github.com
+2. Click the 'Sign up for GitHub' button on the top right hand corner of the page 
+
+
+
 
 
 
