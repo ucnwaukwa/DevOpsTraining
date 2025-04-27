@@ -549,10 +549,16 @@ To start:
 
 # Demo 15
 1. Go to https://github.com
-2. Click the 'Sign up for GitHub' button on the top right hand corner of the page 
+2. Click the 'Sign up for GitHub' button on the top right hand corner of the page
+3. Enter your email, verify your email, and you have a Github account!
+4. Communication on Github happens onthe bases of SSH.  So you need to go ahead and generate an SSH key and save that on the Settings
+   page of Github.  Note that email and/or user name and password is used more on the web, and not on the command line.
+5. 
 
 
 
+Assignment
+Explore the GH utility (GitHub Utility) and work through with that and study what you can do with that.
 
 
 
