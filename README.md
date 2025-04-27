@@ -660,7 +660,10 @@ If pull and fetch loads updated code from the remote repo, then what's the diffe
 
 There are scenarios for both commands. For instance, you may load the updated code but want to be sure it doesn't break your code - so you fetch.
 
-When you are sure it may not break, overwrite or alter your code, then you can pull.
+When you are sure it may not break, overwrite or alter your code, then you can pull.  Hence:
+
+- git pull = git fetch + git merge
+- Command: git pull origin main (changes will be merged to main)
 
 
 
