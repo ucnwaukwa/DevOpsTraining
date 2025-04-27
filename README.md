@@ -537,7 +537,8 @@ c. NEVER run the git rebase command on the master branch - NEVER EVER! This comm
 
 
 # GITHUB
-Github is one of the most popular options used for saving your codebase to an online service. 
+Github is one of the most popular options used for saving your codebase to an online service. Once again, it is important to read the Github documentation and try out 
+things on your own.  
 
 
 
