@@ -490,6 +490,12 @@ We will explore more about the git stash command tomorrow.
 
 
 # GIT FOR BEGINNERS: DAY 5: 27 APR 2025
+Let's explore how git stash and git stash pop works
+
+Going on with yesterday's analogy, after using git stash to save your changes, you were now able to switch to footer using: git switch footer
+
+# Demo 16
+
 
 
 
