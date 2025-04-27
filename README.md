@@ -462,9 +462,11 @@ To understand the Git stash, we use a workflow:
 - Switch to another branch and work (As you know, this may be required for bug fixes, new features etc)
 - Note: Conflicting changes would not allow us to switch branch without commits
 
-It's important to note that if you've worked on code or made changes that are staged, Git may not allow you to switch to another branch without a commit. Let's understand this with a demo
+It's important to note that if you've worked on code or made changes that are NOT staged, Git may not allow you to switch to another branch without a staging or committing those changes. 
 
+Let's understand this with a demo
 
+# Demo 15
 1. Run git status and ensure you are on the master
 2. git swtich -c bugfix
 3. git status to ensure we are on the bugfix branch
