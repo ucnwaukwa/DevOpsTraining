@@ -655,7 +655,15 @@ the remote repo.
 
 If pull and fetch loads updated code from the remote repo, then what's the difference between them?
 
-  
+- git fetch: Gets the updated info from the remote repo but does NOT add it to my work area yet
+- git pull: Gets the updated info from the remote repo AND adds it to my work area.
+
+There are scenarios for both commands. For instance, you may load the updated code but want to be sure it doesn't break your code - so you fetch.
+
+When you are sure it may not break, overwrite or alter your code, then you can pull.
+
+
+
 
 
 
