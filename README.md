@@ -617,10 +617,10 @@ So far we've only worked with Git software installed on your laptop.  Let's expl
 - git remote rename <oldname> <newname> (This is not necessary as mentioned - remote repos are generally named origin - but just FYI)
 - git remote remove name (You can also use this to change the name)
 - git push <remote> <branch>
-- git push origin main
+- git push origin main (Here, the remote repo is origin and the branch pushed is main)
 - git push <remote> localBranch : remoteBranch
 - git push -u origin main
-  -u steup an upstream that allows you to run future commands
+  -u option allows you to setup an upstream that allows you to run future command: git push
 
 
 
