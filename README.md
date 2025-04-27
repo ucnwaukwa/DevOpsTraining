@@ -473,8 +473,8 @@ It's important to note that if you've worked on code or made changes that are st
 - git status (to ensure we are on the bugfix branch)
 - git status (to check the status)
 6. But your attention is needed on another branch (footer) by your colleague! Remember you have not completed
-7. You switch to that branch with command: git switch footer
-8. You now have an error message - you can't move to footer
+7. You switch to that branch with command: git switch footer (meanwhile your changes have not been staged)
+8. You now have an error message - you can't move to footer (e.g. error: Your local changes to the following files would be overwritten by checkout...)
 9. This explains the last note on Requirements 4
 10. How do you solve this? You use the git stash command thus:
 
@@ -485,3 +485,9 @@ It's important to note that if you've worked on code or made changes that are st
 13. And you can switch back to bugfix using: git switch bugfix
 
 We will explore more about the git stash command tomorrow.  
+
+
+# GIT FOR BEGINNERS: DAY 5: 27 APR 2025
+
+
+
