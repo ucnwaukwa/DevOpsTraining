@@ -513,7 +513,16 @@ NOTE: The stash is a temporary shelf where you can keep your code temporarily.  
 
 - git stash list
 
-8. S
+8. The above command shows which branch where the work in progress was at before the stash e.g:
+- stash@{0}: WIP on master: 9dd87fa change index and footer
+9. And you can dump the stash you really intend to dump thus:
+
+- git stash apply stash@{0}
+
+NOTE
+
+
+
 
 
 
