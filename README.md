@@ -623,8 +623,9 @@ So far we've only worked with Git software installed on your laptop.  Let's expl
 - the -u option allows you to setup an upstream that allows you to run future command: git push
 - however, you can explicitly set this up using the command: git push --set-upstream origin main.  The -u option is a short form of this command.
 
-
-
+# THE README FILE
+The readme.md file (where .md stands for markdown) is used to provide information or a user manual for your code.  
+Class Activity: Create a readme.md file on your VSCode GUI and push it to your remote repo.
 
 
 
