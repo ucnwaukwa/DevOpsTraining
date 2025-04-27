@@ -628,7 +628,17 @@ The readme.md file (where .md stands for markdown) is used to provide informatio
 Class Activity: Create a readme.md file on your VSCode GUI and push it to your remote repo.
 
 
+# PULL REQUESTS AND REMOTE REPOS
+To start things, let's first explore the cloning a remote repo.
 
+# git clone
+You can clone a remote repo by running the command:
+
+# Demo 17
+1. Go to your code base on Github and copy the http URL of a repo
+2. Use this command below to copy the code to your local system
+- git clone <URL> (URL here stands for the URL of any repo.  With this command, you can copy the repo code to your local laptop)
+3. 
 
 
 
