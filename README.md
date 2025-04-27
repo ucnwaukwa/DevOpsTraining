@@ -569,12 +569,53 @@ To start:
 15. Enter a Title
 16. Choose Key type to be Authentication Key
 17. Copy and paste the SSH key under the Key textbox, click Add SSH key button, and that would be it!
-18. At this point your Git instance will be able to communicate with your GitHub account 
-
+18. At this point your Git instance will be able to communicate with your GitHub account
+19. Next we create a new repository and learn how to talk with Git!
+20. We can now use gitspace3
+21. Drag and drop the folder (gitspace3) to your code editor to open it
+22. You can create a new index.html inside gitspace3
+23. Go ahead and type git status
+24. Initialize gitspace3 with git init 
+25. git add and git commit the untracked file, index.html
+26. Use git branch to confirm you're on master
+27. On GitHub, create a new repository by clicking the top right hand drop down text box beside a '+' sign and choose New repository
+28. Fill out the Repository name
+29. Provide a description
+30. Choose Public
+31. Click on Create Repository
+32. Explore the commands suggested to you. Use the git branch -M main to change from master to main
+33. Also use git remote add origin <URL of your repository>
+34. git push -u origin main
 
 Assignment
 Explore the GH utility (GitHub Utility) and work through with that and study what you can do with that.
 
+# Github: Notable details and summary of activities
+Git is a software and Github is a service to host git online.  GitHub is also:
+- a collaboration tool
+- backup tool
+- Used for Open Source (more on this later)
+- We will explore commands like:
+  a. git clone <URL>
+  b. git config --global user.name "<name>"
+  c. git config --global user.email "uche@uche.ai"
+- Setup SSH keys to connect with Github
+- Github uses SSH to allow you push code
+- Password based code push is NOT allowed on GitHub
+- Check instructions for your OS on the GitHub website - this is updated and best practice
+
+# GIT REMOTE REPOSITORIES
+So far we've only worked with Git software installed on your laptop.  Let's explore working with a remote repository.  Here are key commands here:
+- git remote -v
+- git remote add <name url>
+- git remote add origin https://github.com/uche/dump.git
+- git remote rename <oldname> <newname>
+- git remote remove name
+- git push <remote> <branch>
+- git push origin main
+- git push <remote> localBranch : remoteBranch
+- git push -u origin main
+  -u steup an upstream that allows you to run future commands
 
 
 
