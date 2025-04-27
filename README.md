@@ -613,7 +613,7 @@ So far we've only worked with Git software installed on your laptop.  Let's expl
 - e.g: git remote add origin https://github.com/ucnwaukwa/repo1.git (Note: Everyone generally calls their remote repo origin.  Please don't change it)
 - Also, copy the remote repo http link (on GitHub), not the ssh repo URL
 - NOTE: origin above stands for the name of the repository in the remote GitHub account
-- git remote add origin https://github.com/uche/dump.git
+- git remote add origin https://github.com/uche/dump.git (After you issue this command, use: git remote -v to confirm remote repo has been configured)
 - git remote rename <oldname> <newname> (This is not necessary as mentioned - remote repos are generally named origin - but just FYI)
 - git remote remove name (You can also use this to change the name)
 - git push <remote> <branch>
