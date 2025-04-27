@@ -620,7 +620,9 @@ So far we've only worked with Git software installed on your laptop.  Let's expl
 - e.g. git push origin main (Here, the remote repo is origin and the branch pushed is main)
 - git push <remote> localBranch : remoteBranch
 - git push -u origin main
-  -u option allows you to setup an upstream of the origin with the main for this branch (main), which allows you to run future command: git push
+- the -u option allows you to setup an upstream that allows you to run future command: git push
+- however, you can explicitly set this up using the command: git push --set-upstream origin main.  The -u option is a short form of this command.
+
 
 
 
