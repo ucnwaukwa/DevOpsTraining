@@ -551,10 +551,25 @@ To start:
 1. Go to https://github.com
 2. Click the 'Sign up for GitHub' button on the top right hand corner of the page
 3. Enter your email, verify your email, and you have a Github account!
-4. Communication on Github happens onthe bases of SSH.  So you need to go ahead and generate an SSH key and save that on the Settings
+4. Communication on Github happens on the bases of SSH.  So you need to generate an SSH key and save that on the Settings
    page of Github.  Note that email and/or user name and password is used more on the web, and not on the command line.
-5. 
-
+5. With the SSH keys on your laptop and that on the Settings page of GitHub, you can communicate between Git and GitHub
+6. Hence we explore:
+   a. Generating a new SSH key and adding it to the ssh-agent
+   b. Adding a new SSH key to your GitHub account
+   Note: You can explore how to do this by accessing the https://docs.github.com/en/get-started page and searching for ssh on the top-right search tool.
+7. Use the Git Bash terminal from Git SCM install we did initially at the beginning of this course (this is better than the Windows CMD tool if you're on a Windows laptop).
+8. Choose your OS flavour (e.g. Windows) after clicking the link: Generating a new SSH key... (Item 6a above) and follow the procedure
+9. To generate an SSH key:
+   a. Use command: ssh-keygen -t ed25519 -C "<your GitHub email address>".  All the steps exist in the doc
+11. These steps could change in the future, so your best bet is to use the official procedures.
+12. Ignore generating SSH for hardware security
+13. After you've generated the SSH key, click on Homepage>your Profile>Settings on the Github window and choose SSH and GPG keys on the left menu.
+14. Click on New SSH Key on the top right
+15. Enter a Title
+16. Choose Key type to be Authentication Key
+17. Copy and paste the SSH key under the Key textbox, click Add SSH key button, and that would be it!
+18. At this point your Git instance will be able to communicate with your GitHub account 
 
 
 Assignment
