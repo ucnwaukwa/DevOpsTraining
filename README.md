@@ -665,7 +665,7 @@ When you are sure it may not break, overwrite or alter your code, then you can p
 - git pull = git fetch + git merge
 - Command: git pull origin main (changes in the origin will be merged to main)
 
-
+Thank you.
 
 
 
