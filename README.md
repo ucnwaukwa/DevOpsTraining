@@ -616,11 +616,11 @@ So far we've only worked with Git software installed on your laptop.  Let's expl
 - git remote add origin https://github.com/uche/dump.git (After you issue this command, use: git remote -v to confirm remote repo has been configured)
 - git remote rename <oldname> <newname> (This is not necessary as mentioned - remote repos are generally named origin - but just FYI)
 - git remote remove name (You can also use this to change the name)
-- git push <remote> <branch>
-- git push origin main (Here, the remote repo is origin and the branch pushed is main)
+- git push <remote> <branch> (Notice the difference between this command and and adding the -u option below.
+- e.g. git push origin main (Here, the remote repo is origin and the branch pushed is main)
 - git push <remote> localBranch : remoteBranch
 - git push -u origin main
-  -u option allows you to setup an upstream that allows you to run future command: git push
+  -u option allows you to setup an upstream of the origin with the main for this branch (main), which allows you to run future command: git push
 
 
 
