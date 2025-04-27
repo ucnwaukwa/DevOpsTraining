@@ -528,17 +528,13 @@ Please explore these commands and submit during the week:
 3. git checkout HEAD~2 (2 commits prior)
 4. git restore filename (get back to last commit version)
 5. git reflog
-6. git rebase
+6. git rebase.  This will form our discussions on the chat group over the week.  This command is a potential destroyer if you don't know how to use it!
 Tip (git rebase):
-a. Run git status to see the branches and where your head is
-b. NEVER run the git rebase command on the master branch - NEVER EVER! This command is meant to be run from the side branches: bugfix, feature branch, etc.
+a. Most beginners have issues with this command as it re-writes the git history! Be extremely cautious about this command!
+b. Run git status to see the branches and where your head is
+c. NEVER run the git rebase command on the master branch - NEVER EVER! This command is meant to be run from the side branches: bugfix, feature branch, etc.
  
 
-
-# GIT REBASE
-Most beginners have issues with this command as it re-writes the git history!  git rebase can also be used as a clean up tool.
-
-NOTE: You must be extremely cautious about this command.
 
 
 
