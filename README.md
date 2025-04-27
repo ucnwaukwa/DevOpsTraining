@@ -604,9 +604,11 @@ Git is a software and Github is a service to host git online.  GitHub is also:
 - Password based code push is NOT allowed on GitHub
 - Check instructions for your OS on the GitHub website - this is updated and best practice
 
-# GIT REMOTE REPOSITORIES
+# GIT REMOTE REPOSITORIES AND PUSH
 So far we've only worked with Git software installed on your laptop.  Let's explore working with a remote repository.  Here are key commands here:
-- git remote -v
+
+# Demo 16
+- git remote -v (checks if you have a remote repository already set up)
 - git remote add <name url>
 - git remote add origin https://github.com/uche/dump.git
 - git remote rename <oldname> <newname>
