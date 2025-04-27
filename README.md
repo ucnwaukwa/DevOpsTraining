@@ -506,7 +506,14 @@ Assuming we are through with helping our colleague from the example above, we ar
 NOTE: The stash is a temporary shelf where you can keep your code temporarily.  But you need to pick back your code from the shelf to continue. You do this using the command:
 
 - git stash pop
+
 5.  When you check the file now (after the git stash pop command), you now have the stashed changes back (checking from VS Code).
+6.  Note also, that you can pop into another branch (from a stash done on a different branch) using same git stash pop command.
+7.  Hence it's very very important to be careful with how you stash and pop... Hence the command:
+
+- git stash list
+
+8. S
 
 
 
