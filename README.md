@@ -525,8 +525,8 @@ Assignment:
 Please explore these commands and submit during the week:
 1. git checkout <commit id> - you could use the command: git log --oneline to see the commit hashes
 2. git switch main (re-attach head)
-3. git checkout HEAD~2 (look at 2 commits prior)
-4. git restore filename (get back to last commit version0
+3. git checkout HEAD~2 (2 commits prior)
+4. git restore filename (get back to last commit version)
 
 
 
