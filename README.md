@@ -643,6 +643,7 @@ You can clone a remote repo by running the command:
 It is important to note that all we have done so far (days before now) was done in our what we call our local repository (referring to commits).
 When we push, we are actually uploading our code to remote repository. 
 
+# git pull and git fetch
 However, at some point while you are working on the local repo, you may want to get code already uploaded by a colleague to your local 
 repo to be able to ensure you sync with the latest updates in main.  You then use commands such as pull, fetch etc.  These commands get the 
 code from the connected remote repository down to your local repository. 
@@ -652,6 +653,7 @@ We can see these commands when we click on Code on the left hand side of the VSc
 Note that clone gets the whole code en-block, one off.  But if you're actively contributing to code you can use the pull and fetch to get code from 
 the remote repo.
 
+If pull and fetch loads updated code from the remote repo, then what's the difference between them?
 
   
 
