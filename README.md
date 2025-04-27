@@ -609,7 +609,7 @@ So far we've only worked with Git software installed on your laptop.  Let's expl
 
 # Demo 16
 - git remote -v (checks if you have a remote repository already set up)
-- git remote add <name url>
+- git remote add <name url> (Add a remote repository name - this connects your Git software to a remote repository)
 - git remote add origin https://github.com/uche/dump.git
 - git remote rename <oldname> <newname>
 - git remote remove name
