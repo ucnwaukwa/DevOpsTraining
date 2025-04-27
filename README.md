@@ -649,7 +649,7 @@ code from the connected remote repository down to your local repository.
 
 We can see these commands when we click on Code on the left hand side of the VScode window>Click on the 3 dots and access the pop up command menu.
 
-Note that clone gets the whole code en-block one off.  But if you're actively contributing to code you can use the pull and fetch to get code from 
+Note that clone gets the whole code en-block, one off.  But if you're actively contributing to code you can use the pull and fetch to get code from 
 the remote repo.
 
 
